@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/hotelnemu2" >
+
+    <Button
+        android:id="@+id/jingqiaohotel"
+        android:layout_width="85dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="6dp" 
+        android:background="@android:color/transparent" />
+
+    <Button
+       android:id="@+id/Tell1"
+       android:layout_width="60dp"
+       android:layout_height="53dp"
+       android:layout_toRightOf="@+id/jingqiaohotel" 
+       android:background="@android:color/transparent" />
+
+    <Button
+       android:id="@+id/qingchenghotel"
+       android:layout_width="85dp"
+       android:layout_height="53dp"
+       android:layout_marginLeft="9dp"
+       android:layout_marginTop="6dp"
+       android:layout_toRightOf="@+id/Tell1" 
+       android:background="@android:color/transparent" />
+
+    <Button
+       android:id="@+id/Tell2"
+       android:layout_width="60dp"
+       android:layout_height="53dp"
+       android:layout_toRightOf="@+id/qingchenghotel" 
+       android:background="@android:color/transparent" 
+       />
+
+    <Button
+       android:id="@+id/Tell5"
+       android:layout_width="60dp"
+       android:layout_height="53dp"
+       android:layout_below="@+id/Tell3"
+        android:layout_marginTop="53dp"
+       android:layout_toRightOf="@+id/aitahotel" 
+       android:background="@android:color/transparent" 
+       />
+
+    <Button
+       android:id="@+id/qingtonghotel"
+       android:layout_width="85dp"
+       android:layout_height="53dp"
+       android:layout_marginLeft="9dp"
+       android:layout_marginTop="53dp"
+       android:layout_below="@+id/jialehotel"
+       android:layout_toRightOf="@+id/Tell5" 
+       android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Tell6"
+        android:layout_width="60dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/Tell4"
+        android:layout_marginTop="53dp"
+        android:layout_toRightOf="@+id/qingtonghotel"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Tell3"
+        android:layout_width="60dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/jingqiaohotel"
+        android:layout_marginTop="63dp"
+        android:layout_toLeftOf="@+id/jialehotel"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Tell4"
+        android:layout_width="60dp"
+        android:layout_height="53dp"
+        android:layout_above="@+id/Tell5"
+        android:layout_alignRight="@+id/Tell2"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/xurihotel"
+        android:layout_width="85dp"
+        android:layout_height="53dp"
+        android:layout_above="@+id/Tell5"
+        android:layout_alignLeft="@+id/jingqiaohotel"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/aitahotel"
+        android:layout_width="85dp"
+        android:layout_height="53dp"
+        android:layout_alignBaseline="@+id/Tell5"
+        android:layout_alignBottom="@+id/Tell5"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/jialehotel"
+        android:layout_width="85dp"
+        android:layout_height="53dp"
+        android:layout_above="@+id/Tell6"
+        android:layout_toRightOf="@+id/Tell1"
+        android:background="@android:color/transparent" />
+   
+</RelativeLayout>
+

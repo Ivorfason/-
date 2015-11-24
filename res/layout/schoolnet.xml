@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:background="@drawable/neduweb">
+
+
+<Button
+    android:id="@+id/neduweb2"
+    android:layout_width="125dp"
+    android:layout_height="100dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="90dp" 
+    android:background="@android:color/transparent" />
+
+<Button
+    android:id="@+id/neduweb3"
+    android:layout_width="125dp"
+    android:layout_height="100dp"
+    android:layout_alignLeft="@+id/neduweb1"
+    android:layout_below="@+id/neduweb2"
+    android:layout_marginTop="59dp"
+    android:background="@android:color/transparent" />
+
+<Button
+    android:id="@+id/neduweb4"
+    android:layout_width="125dp"
+    android:layout_height="100dp"
+    android:layout_alignBaseline="@+id/neduweb3"
+    android:layout_alignBottom="@+id/neduweb3"
+    android:layout_alignLeft="@+id/neduweb2"
+    android:background="@android:color/transparent" />
+
+<Button
+    android:id="@+id/neduweb1"
+    android:layout_width="125dp"
+    android:layout_height="100dp"
+    android:layout_above="@+id/neduweb3"
+    android:layout_marginRight="21dp"
+    android:layout_toLeftOf="@+id/neduweb2"
+    android:background="@android:color/transparent" />
+
+</RelativeLayout>

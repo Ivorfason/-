@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/secong"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="东北电力大学-校园风光"
+        android:textStyle="bold|italic" />
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="170dp"
+        android:scaleType="fitXY" />
+
+    <RadioButton
+        android:id="@+id/oldschoolfood"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="校园美食" 
+        android:textStyle="bold|italic"/>
+
+    <RadioButton
+        android:id="@+id/aroundhotel2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="周边住宿"
+        android:textStyle="bold|italic"/>
+
+</LinearLayout>

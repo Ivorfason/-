@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/menu"
+    tools:context=".MainActivity" >
+
+		<ImageView
+             android:id="@+id/jiwankuaifan"
+             android:layout_width="95dp"
+             android:layout_height="wrap_content"
+             android:src="@drawable/jiwankuaifan"
+             />
+
+        <ImageView
+            android:id="@+id/xiaolongbao"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/xinjiangshaokao"
+            android:layout_toLeftOf="@+id/tell2"
+            android:src="@drawable/xiaolongbao" />
+
+         <ImageView
+             android:id="@+id/huanyingpinchang"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:src="@drawable/huanyingpinchang" />
+
+         <ImageView
+             android:id="@+id/tell4"
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:layout_alignLeft="@+id/tell2"
+             android:layout_alignTop="@+id/jiwankuaifan"
+             android:src="@drawable/tell1" />
+
+         <ImageView
+             android:id="@+id/tell3"
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:layout_alignTop="@+id/jiwankuaifan"
+             android:layout_toRightOf="@+id/jiwankuaifan"
+             android:src="@drawable/tell1" />
+
+         <ImageView
+             android:id="@+id/jiaoziguan"
+             android:layout_width="95dp"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/xiaolongbao"
+             android:layout_below="@+id/xiaolongbao"
+             android:src="@drawable/jiaoziguan" />
+
+         <ImageView
+             android:id="@+id/xinjiangshaokao"
+             android:layout_width="95dp"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/jiwankuaifan"
+             android:layout_toLeftOf="@+id/tell3"
+             android:src="@drawable/xinjiangshaokao" />
+
+         <ImageView
+             android:id="@+id/tell5"
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:layout_alignLeft="@+id/tell1"
+             android:layout_alignTop="@+id/xinjiangshaokao"
+             android:src="@drawable/tell1" />
+
+         <ImageView
+             android:id="@+id/heijiroubing"
+             android:layout_width="95dp"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/xinjiangshaokao"
+             android:layout_below="@+id/xinjiangshaokao"
+             android:src="@drawable/heijiroubing" />
+
+         <ImageView
+             android:id="@+id/zicaibaofan"
+             android:layout_width="95dp"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/jiaoziguan"
+             android:layout_below="@+id/jiaoziguan"
+             android:src="@drawable/zicaibaofan" />
+
+         <ImageView
+             android:id="@+id/tell6"
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:layout_alignLeft="@+id/tell4"
+             android:layout_alignTop="@+id/jiaoziguan"
+             android:src="@drawable/tell1" />
+
+         <ImageView
+             android:id="@+id/tell2"
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:layout_alignRight="@+id/huanyingpinchang"
+             android:layout_alignTop="@+id/zicaibaofan"
+             android:src="@drawable/tell1" />
+
+         <ImageView
+             android:id="@+id/tell1"
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:layout_alignLeft="@+id/tell3"
+             android:layout_alignTop="@+id/heijiroubing"
+             android:src="@drawable/tell1" />
+                 
+         <RadioButton
+             android:id="@+id/more2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentRight="true"
+             android:text="更多美食信息" 
+             android:textStyle="italic|bold"/>
+          
+</RelativeLayout>
